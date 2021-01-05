@@ -1,0 +1,21 @@
+[
+  {
+    "id": "id ачивки",
+    "titleRus": "Заголовок по русски",
+    "titleEng": "Заголовок по англ",
+    "congratsRus": "Поздравление по русски",
+    "congratsEng": "Поздравление по англ",
+    "descriptionRus": "Описание по русски",
+    "descriptionEng": "Описание по англ",
+    "image": "image.png",
+    "order": 0,
+    "condition": {
+      "type": 0,
+      "drinkGroup": "id группы",
+      "volume": "50",
+      "drinkId": "id напитка",
+      "duration": 100,
+      "totalDays": 200
+    }
+  }
+]
