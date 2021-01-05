@@ -1,0 +1,24 @@
+[
+  {
+    "id": "id группы",
+    "order": 0,
+    "engName": "Strong",
+    "rusName": "Крепкий",
+    "statColor": "#000",
+    "drinks": [
+      {
+        "id": "id напитка",
+        "order": 0,
+        "engName": "Vodka",
+        "rusName": "Водка",
+        "image": "s_vodka.png"
+      }
+    ],
+    "presets": [
+      "0.5",
+      "1.0",
+      "1.5",
+      "2.0"
+    ]
+  }
+]
