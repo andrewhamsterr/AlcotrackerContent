@@ -1,24 +1,196 @@
 [
   {
-    "id": "id группы",
-    "order": 0,
-    "engName": "Strong",
-    "rusName": "Крепкий",
-    "statColor": "#000",
     "drinks": [
       {
-        "id": "id напитка",
-        "order": 0,
-        "engName": "Vodka",
-        "rusName": "Водка",
-        "image": "s_vodka.png"
+        "drinkEng": "Cocktails",
+        "drinkRus": "Коктейли",
+        "id": "anotherCoctails",
+        "image": "cocktails.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Shots",
+        "drinkRus": "Шоты",
+        "id": "anotherShots",
+        "image": "shots.png",
+        "order": 0
       }
     ],
+    "engName": "Other",
+    "id": "Another",
+    "order": 4,
     "presets": [
+      "0.1",
+      "0.2",
+      "0.3",
+      "0.5"
+    ],
+    "rusName": "Другое",
+    "statColor": "#EBA2BD"
+  },
+  {
+    "drinks": [
+      {
+        "drinkEng": "Light",
+        "drinkRus": "Светлое",
+        "id": "pivolight",
+        "image": "light_beer.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Dark",
+        "drinkRus": "Темное",
+        "id": "pivodark",
+        "image": "dark_beer.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Cider",
+        "drinkRus": "Сидр",
+        "id": "pivocider",
+        "image": "cider.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Unfiltered",
+        "drinkRus": "Нефильтрованное",
+        "id": "pivounfiltered",
+        "image": "unfiltered_beer.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "El",
+        "drinkRus": "Эль",
+        "id": "pivoel",
+        "image": "el.png",
+        "order": 0
+      }
+    ],
+    "engName": "Beer",
+    "id": "Pivo",
+    "order": 1,
+    "presets": [
+      "0.2",
+      "0.3",
       "0.5",
       "1.0",
-      "1.5",
       "2.0"
-    ]
+    ],
+    "rusName": "Пиво",
+    "statColor": "#F1BF91"
+  },
+  {
+    "drinks": [
+      {
+        "drinkEng": "Vodka",
+        "drinkRus": "Водка",
+        "id": "strongvodka",
+        "image": "vodka.png",
+        "order": 1
+      },
+      {
+        "drinkEng": "Whiskey",
+        "drinkRus": "Виски",
+        "id": "strongwhiskey",
+        "image": "whiskey.png",
+        "order": 2
+      },
+      {
+        "drinkEng": "Gin",
+        "drinkRus": "Джин",
+        "id": "strongjin",
+        "image": "gin.png",
+        "order": 6
+      },
+      {
+        "drinkEng": "Rum",
+        "drinkRus": "Ром",
+        "id": "strongrome",
+        "image": "rom.png",
+        "order": 4
+      },
+      {
+        "drinkEng": "Tequila",
+        "drinkRus": "Текила",
+        "id": "strongtekila",
+        "image": "tequila.png",
+        "order": 5
+      },
+      {
+        "drinkEng": "Cognac",
+        "drinkRus": "Коньяк",
+        "id": "strongcognac",
+        "image": "",
+        "order": 3
+      },
+      {
+        "drinkEng": "Absent",
+        "drinkRus": "Абсент",
+        "id": "strongAbsent",
+        "image": "absent.png",
+        "order": 7
+      }
+    ],
+    "engName": "Strong alcohol",
+    "id": "Strong",
+    "order": 2,
+    "presets": [
+      "0.05",
+      "0.1",
+      "0.5",
+      "1.0"
+    ],
+    "rusName": "Крепкий",
+    "statColor": "#EB8B89"
+  },
+  {
+    "drinks": [
+      {
+        "drinkEng": "red",
+        "drinkRus": "Красное",
+        "id": "vinered",
+        "image": "red_wine.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "White",
+        "drinkRus": "Белое",
+        "id": "vinewhite",
+        "image": "white_wine.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Champagne",
+        "drinkRus": "Шампанское",
+        "id": "vinoshampane",
+        "image": "champagne.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Pink",
+        "drinkRus": "Розовое",
+        "id": "vinerose",
+        "image": "pink_wine.png",
+        "order": 0
+      },
+      {
+        "drinkEng": "Port wine",
+        "drinkRus": "Портвейн",
+        "id": "vineport",
+        "image": "port_wine.png",
+        "order": 0
+      }
+    ],
+    "engName": "Vine",
+    "id": "Vine",
+    "order": 3,
+    "presets": [
+      "0.15",
+      "0.75",
+      "1.0",
+      "1.5"
+    ],
+    "rusName": "Вино",
+    "statColor": "#B0D3F1"
   }
 ]

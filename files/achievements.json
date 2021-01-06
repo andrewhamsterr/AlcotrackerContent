@@ -1,21 +1,325 @@
 [
   {
-    "id": "id ачивки",
-    "titleRus": "Заголовок по русски",
-    "titleEng": "Заголовок по англ",
-    "congratsRus": "Поздравление по русски",
-    "congratsEng": "Поздравление по англ",
-    "descriptionRus": "Описание по русски",
-    "descriptionEng": "Описание по англ",
-    "image": "image.png",
-    "order": 0,
     "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 1,
+      "type": 3,
+      "volume": ""
+    },
+    "congratsRus": "Ура! Поздравлем, ты перешел на темную сторону. Продолжай в том же духе!",
+    "congratsEng": " Hooray! Congratulations, you've switched to the dark side. Keep up the good work!",
+    "descriptionRus": "Чтобы получить награду нужно отметить что пил 1 день",
+    "descriptionEng": "To get the reward, you need to note that you drank for 1 day",
+    "id": "1day",
+    "image": "achiv_0.png",
+    "order": 1,
+    "titleRus": "Новичок",
+    "titleEng": "Beginer"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 3,
+      "totalDays": 0,
+      "type": 2,
+      "volume": ""
+    },
+    "congratsRus": "Поздравляем, ты пил три дня подряд👌",
+    "congratsEng": " Congratulations, you drank for three days in a row👌",
+    "descriptionRus": "Чтобы получить награду нужно пить 3 дня подряд",
+    "descriptionEng": " You need to drink 3 days in a row to get the reward",
+    "id": "3days",
+    "image": "achiv_1.png",
+    "order": 2,
+    "titleRus": "Любитель",
+    "titleEng": "Amateur"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 7,
+      "totalDays": 0,
+      "type": 2,
+      "volume": ""
+    },
+    "congratsRus": "Поздравляем, ты пил неделю! Достойный результат!",
+    "congratsEng": " Congratulations, you've been drinking for a week! Decent result!",
+    "descriptionRus": "Чтобы получить награду нужно пить всю неделю",
+    "descriptionEng": "Drink all week to get the reward",
+    "id": "7days",
+    "image": "achiv_2.png",
+    "order": 3,
+    "titleRus": "Запой",
+    "titleEng": "Booze"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 14,
+      "totalDays": 0,
+      "type": 2,
+      "volume": ""
+    },
+    "congratsRus": "Ура! Поздравлем, ты пил 2 недели! Кажется, в соседнем алкомаркете тебя уже знают в лицо😏",
+    "congratsEng": " Hooray! Congratulations, you've been drinking for 2 weeks! It seems that in the neighboring liquor store they already know you by sight😏",
+    "descriptionRus": "Чтобы получить награду нужно пить две недели",
+    "descriptionEng": "You need to drink for two weeks to receive the award.",
+    "id": "14days",
+    "image": "achiv_3.png",
+    "order": 4,
+    "titleRus": "Чемпионский запой",
+    "titleEng": "Champion's Booze"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 30,
+      "totalDays": 0,
+      "type": 2,
+      "volume": ""
+    },
+    "congratsRus": "Поздравляем,ты пил месяц! Такому рекорду позавидуют многие. А ты еще даже в состоянии отмечать дни💪",
+    "congratsEng": " Congratulations, you've been drinking for a month! Many will envy such a record. And you are even able to mark days💪",
+    "descriptionRus": "Чтобы получить награду нужно пить месяц",
+    "descriptionEng": "You need to drink for a month to get an award",
+    "id": "30days",
+    "image": "achiv_4.png",
+    "order": 5,
+    "titleRus": "Белочка",
+    "titleEng": "Drunk"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 183,
+      "type": 3,
+      "volume": ""
+    },
+    "congratsRus": "Поздравляем, ты пил полгода! Не думали, что кто-то дойдет до сюда. Ты наш кумир (но явно пора завязывать)",
+    "congratsEng": " Congratulations, you are half a year! Didn't think that someone would come to here. You are our idol (but obviously it's time to tie)",
+    "descriptionRus": "Чтобы получить награду нужно пить полгода без перерыва",
+    "descriptionEng": " To receive the award, you need to drink for six months without a break.",
+    "id": " halfyear",
+    "image": "achiv_5.png",
+    "order": 6,
+    "titleRus": "Ветеран",
+    "titleEng": "Veteran"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 100,
+      "type": 3,
+      "volume": ""
+    },
+    "congratsRus": "Поздравляем, ты пил 100 дней за год! Достойный результат! Ты уже год с нами, и еще в силах отмечать дни. Наш герой! В честь такого грех не выпить!",
+    "congratsEng": " Congratulations, you've been drinking 100 days in a year! Decent result! You have been with us for a year, and you are still able to celebrate the days. Our hero! In honor of such a sin not to drink!",
+    "descriptionRus": "Чтобы получить награду нужно пить сто дней за год",
+    "descriptionEng": " You need to drink one hundred days in a year to receive the award.",
+    "id": "100days",
+    "image": "achiv_6.png",
+    "order": 7,
+    "titleRus": "Видел все",
+    "titleEng": "Saw everything"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Pivo",
+      "drinkId": "",
+      "duration": 7,
+      "totalDays": 0,
+      "type": 4,
+      "volume": "10.0"
+    },
+    "congratsRus": "Поздравляем, ты выпил 10 литров пива за неделю. Водяной баланс восполнен!",
+    "congratsEng": " Congratulations, you drank 10 liters of beer in a week. The water balance has been replenished!",
+    "descriptionRus": "Чтобы получить награду нужно выпить 10 литров пива за неделю",
+    "descriptionEng": " To receive the reward, you need to drink 10 liters of beer per week",
+    "id": "10LPivoForWeek",
+    "image": "achiv_7.png",
+    "order": 8,
+    "titleRus": "Октоберфест",
+    "titleEng": "Oktoberfest"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Pivo",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
       "type": 0,
-      "drinkGroup": "id группы",
-      "volume": "50",
-      "drinkId": "id напитка",
-      "duration": 100,
-      "totalDays": 200
-    }
+      "volume": "100"
+    },
+    "congratsRus": "Поздравляем, ты выпил 100 литров пива! Кажется, пиво уже у тебя течет вместо крови",
+    "congratsEng": " Congratulations, you drank 100 liters of beer! It seems like your beer is already flowing instead of blood",
+    "descriptionRus": "Чтобы получить награду нужно выпить 100 литров пива",
+    "descriptionEng": "  To receive the reward you need to drink 100 liters of beer",
+    "id": "pivnoepuzo",
+    "image": "achiv_8.png",
+    "order": 9,
+    "titleRus": "Пивное пузо",
+    "titleEng": "Beer belly"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Vine",
+      "drinkId": "",
+      "duration": 7,
+      "totalDays": 0,
+      "type": 4,
+      "volume": "5"
+    },
+    "congratsRus": "Поздравляем, ты выпил  5 л вина за неделю! Кажется, Бутылка полусладкого понимает тебя уже больше чем большинство людей😅 ",
+    "congratsEng": "Congratulations, you drank 5 liters of wine in a week! It seems that Semisweet Bottle understands you more than most people😅",
+    "descriptionRus": "Чтобы получить награду нужно выпить 5 л вина за неделю",
+    "descriptionEng": " To receive a reward, you need to drink 5 liters of wine per week",
+    "id": "2LWineForWeek",
+    "image": "achiv_9.png",
+    "order": 10,
+    "titleRus": "Сомелье не в себе",
+    "titleEng": "The sommelier out of sorts"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Vine",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": 0,
+      "volume": "50"
+    },
+    "congratsRus": "Поздравляем, ты выпил 50 литров вина! Не алкаш, а сомелье!",
+    "congratsEng": " Congratulations, you drank 50 liters of wine! Not a drunk, but a sommelier!",
+    "descriptionRus": "Чтобы получить награду нужно выпить 50 литров вина",
+    "descriptionEng": " To receive the reward, you need to drink 50 liters of wine",
+    "id": "50LWine",
+    "image": "achiv_10.png",
+    "order": 11,
+    "titleRus": "Творческая личность",
+    "titleEng": "Creative personality"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Strong",
+      "drinkId": "",
+      "duration": 7,
+      "totalDays": 0,
+      "type": 4,
+      "volume": "2"
+    },
+    "congratsRus": "Поздравляем, ты выпил 2 л крепких напитков за неделю! Много пить вредно, а мало - бессмысленно. Это точно про тебя!",
+    "congratsEng": " Congratulations, you drank 2 liters of spirits in a week! Drinking a lot is harmful, but a little is pointless. This is definitely about you!",
+    "descriptionRus": "Чтобы получить награду нужно выпить 2 л крепких напитков за неделю",
+    "descriptionEng": " To receive a reward, you need to drink 2 liters of spirits per week",
+    "id": "2LStrong",
+    "image": "achiv_11.png",
+    "order": 12,
+    "titleRus": "Тусер",
+    "titleEng": "Clubber"
+  },
+  {
+    "condition": {
+      "drinkGroup": "Strong",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": 0,
+      "volume": "20"
+    },
+    "congratsRus": "Поздравляем, ты выпил 20 л крепких напитков! В Умении уничтожать алкоголь тебе нет равных!",
+    "congratsEng": "Congratulations, you drank 20 liters of spirits! In the ability to destroy alcohol, you have no equal!",
+    "descriptionRus": "Чтобы получить награду нужно  выпить 20 л крепких напитков",
+    "descriptionEng": " To receive a reward, you need to drink 20 liters of spirits",
+    "id": "20LStrong",
+    "image": "achiv_12.png",
+    "order": 13,
+    "titleRus": "Прощай печень",
+    "titleEng": "Farewell, liver"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": -1,
+      "volume": ""
+    },
+    "congratsRus": "Чтобы получить награду нужно выпить 10 литров коктелей",
+    "congratsEng": " To receive the reward, you need to drink 10 liters of cocktails",
+    "descriptionRus": "Поздравляем, ты выпил 10 литров коктейлей! Без тебя не проходит ни одна вечеринка!",
+    "descriptionEng": " Congratulations, you drank 10 liters of cocktails! No party goes by without you!",
+    "id": "10LCocktails",
+    "image": "achiv_13.png",
+    "order": 14,
+    "titleRus": "Король вечеринок",
+    "titleEng": "Party's King"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": -1,
+      "volume": ""
+    },
+    "congratsRus": "Чтобы получить награду нужно выпить 5 литров шотов",
+    "congratsEng": " To receive the reward you need to drink 5 liters of shots",
+    "descriptionRus": "Поздравляем, ты выпил 5 литров шотов! Да, в местных барах о тебя ходят легенды.",
+    "descriptionEng": " Congratulations, you drank 5 liters of shots! Yes, you are legendary in local bars.",
+    "id": "5LShots",
+    "image": "achiv_1.png",
+    "order": 15,
+    "titleRus": "Любовь бармена",
+    "titleEng": "King of the bar"
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": 5,
+      "volume": "100"
+    },
+    "congratsRus": "Чтобы получить награду нужно выпить 100 л алкоголя",
+    "congratsEng": "Congratulations, you drank 100 liters of alcohol! Urgent new liver in the studio. However, it must be celebrated!",
+    "descriptionRus": "Поздравляем, ты выпил 100 л алкоголя! Срочно новую печень в студию. А впрочем, это надо отметить!",
+    "descriptionEng": "To receive the reward you need to drink 100 liters of alcohol",
+    "id": "100LAlco",
+    "image": "achiv_15.png",
+    "order": 16,
+    "titleRus": "Магистр литрболла",
+    "titleEng": "Drinking game's Master "
+  },
+  {
+    "condition": {
+      "drinkGroup": "",
+      "drinkId": "",
+      "duration": 0,
+      "totalDays": 0,
+      "type": -1,
+      "volume": ""
+    },
+    "congratsRus": "Чтобы получить награду нужно выпить 500 л алкоголя",
+    "congratsEng": "To receive the reward you need to drink 500 liters of alcohol",
+    "descriptionRus": "Поздравляем, ты выпил 500 л алкоголя! Вот правда же говорят, алкогол ьв малых дозах безвреден в любом количестве. Это вполне могло бы быть вашим девизом😎 ",
+    "descriptionEng": " Congratulations, you drank 500 liters of alcohol! But the truth is they say that alcohol in small doses is harmless in any quantity. This could very well be your motto😎",
+    "id": "500LAlco",
+    "image": "achiv_16.png",
+    "order": 17,
+    "titleRus": "Синий боец",
+    "titleEng": "Blue fighter"
   }
 ]
