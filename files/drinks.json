@@ -13,7 +13,14 @@
         "drinkRus": "Шоты",
         "id": "anotherShots",
         "image": "shots.png",
-        "order": 0
+        "order": 1
+      },
+      {
+        "drinkEng": "Tincture/Moonshine",
+        "drinkRus": "Настойка/Самогон",
+        "id": "anotherMoonshine",
+        "image": "moonshine.png",
+        "order": 2
       }
     ],
     "engName": "Other",
@@ -120,7 +127,7 @@
         "drinkEng": "Cognac",
         "drinkRus": "Коньяк",
         "id": "strongcognac",
-        "image": "",
+        "image": "cognac.png",
         "order": 3
       },
       {
@@ -129,6 +136,20 @@
         "id": "strongAbsent",
         "image": "absent.png",
         "order": 7
+      },
+      {
+        "drinkEng": "Liquor",
+        "drinkRus": "Ликер",
+        "id": "strongLiquor",
+        "image": "liquor.png",
+        "order": 8
+      },
+      {
+        "drinkEng": "Brandy",
+        "drinkRus": "Бренди",
+        "id": "strongBrandy",
+        "image": "brandy.png",
+        "order": 9
       }
     ],
     "engName": "Strong alcohol",
@@ -157,28 +178,35 @@
         "drinkRus": "Белое",
         "id": "vinewhite",
         "image": "white_wine.png",
-        "order": 0
+        "order": 1
       },
       {
         "drinkEng": "Champagne",
         "drinkRus": "Шампанское",
         "id": "vinoshampane",
         "image": "champagne.png",
-        "order": 0
+        "order": 2
       },
       {
         "drinkEng": "Pink",
         "drinkRus": "Розовое",
         "id": "vinerose",
         "image": "pink_wine.png",
-        "order": 0
+        "order": 3
       },
       {
         "drinkEng": "Port wine",
         "drinkRus": "Портвейн",
         "id": "vineport",
         "image": "port_wine.png",
-        "order": 0
+        "order": 4
+      },
+      {
+        "drinkEng": "Vermouth",
+        "drinkRus": "Вермут",
+        "id": "vineVermouth",
+        "image": "vermut.png",
+        "order": 5
       }
     ],
     "engName": "Vine",
